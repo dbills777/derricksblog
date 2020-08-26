@@ -9,5 +9,3 @@ tags:
   - Blog Creation Post
 ---
 ![My Dog Cersei](/img/63cbd4a7-08a4-44ee-9cea-00af464acd91.jpeg)
-
-## set up a blog
