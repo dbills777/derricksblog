@@ -2,15 +2,12 @@
 templateKey: blog-post
 title: Create a Blog
 date: 2020-08-26T17:20:15.473Z
-description: This is the test second attempt at Gatsby JS
+description: This is the initial blog creation post
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/63cbd4a7-08a4-44ee-9cea-00af464acd91.jpeg
 tags:
-  - brewing
-  - chemex
+  - Blog Creation Post
 ---
-![chemex](/img/chemex.jpg)
-
-
+![My Dog Cersei](/img/63cbd4a7-08a4-44ee-9cea-00af464acd91.jpeg)
 
 ## set up a blog
