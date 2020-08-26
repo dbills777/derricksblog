@@ -4,7 +4,7 @@ title: "Blog Post #1 - Introduce your self"
 date: 2020-08-26T23:27:30.802Z
 description: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/products-grid2.jpg
 tags:
   - "ToDo Blog #1"
