@@ -12,17 +12,7 @@ export default class BlogIndexPage extends React.Component {
           style={{
             backgroundImage: `url('/img/blog.jpg')`,
           }}
-        >
-          <h1
-            className='has-text-weight-bold is-size-1'
-            style={{
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Derrick's Blog
-          </h1>
-        </div>
+        ></div>
         <section className='section'>
           <div className='container'>
             <div className='content'>
