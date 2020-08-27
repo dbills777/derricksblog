@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Blog Post #1 - Introduce your self"
-date: 2020-08-27T15:24:42.656Z
+date: 2020-08-27T15:48:09.855Z
 description: "Introduction:"
 featuredpost: false
 featuredimage: /img/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
