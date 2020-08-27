@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Blog post #2 - The JAMStack"
-date: 2020-08-26T23:27:09.803Z
+date: 2020-08-27T15:47:54.412Z
 description: "JAMStack:"
 featuredpost: false
 featuredimage: /img/jamstack.jpg
