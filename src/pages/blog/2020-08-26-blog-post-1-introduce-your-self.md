@@ -4,7 +4,7 @@ title: "Blog post #2 - The JAMStack"
 date: 2020-08-26T23:27:09.803Z
 description: JAMStack
 featuredpost: false
-featuredimage: /img/carl-heyerdahl-ke0nc8-58mq-unsplash.jpg
+featuredimage: /img/flavor_wheel.jpg
 tags:
   - "ToDo Blog #1"
 ---
