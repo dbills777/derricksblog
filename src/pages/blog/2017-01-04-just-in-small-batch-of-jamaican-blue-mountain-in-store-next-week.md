@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Blog Post #1 - Introduce your self"
-date: 2017-01-04T15:04:10.000Z
+date: 2020-08-27T03:11:00.468Z
 description: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
 featuredpost: false
