@@ -8,6 +8,6 @@ featuredimage: /img/nikita-kachanovsky-bly5jqp_ldw-unsplash.jpg
 tags:
   - Setup Blog
 ---
-![My Dog Cersei](/img/63cbd4a7-08a4-44ee-9cea-00af464acd91.jpeg)
+![My Dog Cersei]()
 
 This is the initial Blog setup post.....
