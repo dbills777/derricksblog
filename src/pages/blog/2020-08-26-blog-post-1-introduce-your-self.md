@@ -1,25 +1,27 @@
 ---
 templateKey: blog-post
-title: "Blog Post #1 - Introduce your self"
+title: "Blog post #2 - The JAMStack"
 date: 2020-08-26T23:27:09.803Z
-description: We’re proud to announce that we’ll be offering a small batch of
-  Jamaica Blue Mountain coffee beans in our store next week.
+description: JAMStack
 featuredpost: false
-featuredimage: /img/products-grid2.jpg
+featuredimage: /img/carl-heyerdahl-ke0nc8-58mq-unsplash.jpg
 tags:
   - "ToDo Blog #1"
 ---
 Please add a new post to your blog, at least 3 paragraphs long, that answers the following points.
 
-(This post could also be an About page on your blog instead of a post if you so desire)
+**Post 2 - JAMStack**
 
-**Introduction**
-
-* Write a little about yourself. Job, hobbies, family, interests.
-* Previous Javascript Experience.
-* What is your favorite part of web development?
-* What do you hope to learn in this class?
+* What is the JAMStack?
+* Why is it an important tool in web development?
+* How can a web developer use the JAMStack?
+* What tools did you use to bring up your blog?
+* Why did you choose those tools?
 
 Please turn in a URL to your post for this assignment.
 
-Lastly, post a link to this post in MS Teams in the channel called Introduce Yourself Blog Post so that others in the class can get to know you as well. Feel free to comment in teams on others posts.
+Lastly, post a link to this post in MS Teams in the channel called **JAMStack Blog Post.** Please comment on at least 2 other posts in Teams.
+
+What did your classmates do well? What did you learn? What did you do differently, and what are the advantages and disadvantages to the method you chose compared to your classmate?
+
+[Previous](https://uvu.instructure.com/courses/504621/modules/items/7647635)[Next](https://uvu.instructure.com/courses/504621/modules/items/7667500)
