@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Blog Post #1 - Introduce your self"
+title: "Blog post #3 - Functions, Objects, and Arrays"
 date: 2020-08-27T03:11:00.468Z
 description: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
@@ -9,17 +9,27 @@ featuredimage: /img/products-grid2.jpg
 tags:
   - "ToDo Blog #1"
 ---
-Please add a new post to your blog, at least 3 paragraphs long, that answers the following points.
+**Post 3 - Functions, Objects, and Arrays**
 
-(This post could also be an About page on your blog instead of a post if you so desire)
+* What are functions in Javascript?
 
-**Introduction**
+  * How are they used and defined?
+  * What is a callback function?
+  * How do you use promises in functions?
+* What are objects in Javascript
 
-* Write a little about yourself. Job, hobbies, family, interests.
-* Previous Javascript Experience.
-* What is your favorite part of web development?
-* What do you hope to learn in this class?
+  * How are they used and defined?
+  * How do you loop through an object?
+* What are Arrays in Javascript?
+
+  * How are they used and defined?
+  * What are 2 ways to loop though an array?
+* Write about at least one other thing you learned this week.
+
+Code examples are a great way to explain these questions.
 
 Please turn in a URL to your post for this assignment.
 
-Lastly, post a link to this post in MS Teams in the channel called Introduce Yourself Blog Post so that others in the class can get to know you as well. Feel free to comment in teams on others posts.
+Lastly, post a link to this post in MS Teams in the channel called **F.O.A Blog Post.** Please comment on at least 2 other posts in Teams.
+
+What did your classmates do well? What did you learn?
