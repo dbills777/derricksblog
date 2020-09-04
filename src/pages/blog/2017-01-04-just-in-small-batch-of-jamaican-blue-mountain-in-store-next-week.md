@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Blog post #3 - Functions, Objects, and Arrays"
-date: 2020-09-04T22:41:46.186Z
+date: 2020-09-04T22:43:53.742Z
 description: A Bit About Functions
 featuredpost: true
 featuredimage: /img/functions.png
