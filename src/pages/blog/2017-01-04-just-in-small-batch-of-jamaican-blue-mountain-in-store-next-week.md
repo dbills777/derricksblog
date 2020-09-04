@@ -96,7 +96,7 @@ delay(3000).then(() => console.log('This Promise resolved after '+ time+'ms'));
 //output 'This Promise resolved after 3000ms'
 ```
 
-//todo finish promises
+Without getting into the depths of promises it is a concept that a specific function will perform an operation, and upon that resolution it is said that the promise has been resolved. In the code example able the promise is resolved after the delay time has lapsed. at that point it will .then continue on with its other operations. This gives a program time to receive or complete a task and to be "ready" for the output from the promise. 
 
 **Objects**
 
