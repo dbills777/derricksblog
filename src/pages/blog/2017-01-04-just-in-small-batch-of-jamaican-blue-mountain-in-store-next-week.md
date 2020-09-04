@@ -73,8 +73,6 @@ addTwo(20)
 
 In the code block above we have "defined" an Arrow Function this is nearly identical in practice to the addOne() function shown above it. Although there are some differences. If the function declaration and the return statement are on one line we can right it as shown above on line 9. On line 11 it is written with an included return statement. This is how it would be written for a complex function body that can not all be contained on one line. They also handle the binding of the "This" keyword differently than other functions, but that will be covered later.
 
-
-
 **Callback Function**
 
 ```javascript
@@ -88,21 +86,55 @@ console.log(result);
 
 In this example our named function "result" contains a filter method that receives two arguments. The first argument is an array that it wishes to perform a given operation on, and a function that is to be permed on the given array. The process for this example is filter passes the array of numbers and calls the 2nd parameter, the function greaterThanFive(item). The array is represented by the item parameter and the operation is performed on the array. In this example it filters out only numbers that are greater than five. The real advantage is that this type of function will continue to run until it has processed the entire array or other piece of data that it is working on with a single function call.
 
-* How do you use promises in functions?
-* What are objects in Javascript
+**Promises**
 
-  * How are they used and defined?
-  * How do you loop through an object?
-* What are Arrays in Javascript?
+```javascript
 
-  * How are they used and defined?
-  * What are 2 ways to loop through an array?
-* Write about at least one other thing you learned this week.
+const delay = time => new Promise((resolve) => setTimeout(resolve, time));
 
-Code examples are a great way to explain these questions.
+delay(3000).then(() => console.log('This Promise resolved after '+ time+'ms'));
+//output 'This Promise resolved after 3000ms'
+```
 
-Please turn in a URL to your post for this assignment.
+//todo finish promises
 
-Lastly, post a link to this post in MS Teams in the channel called **F.O.A Blog Post.** Please comment on at least 2 other posts in Teams.
+**Objects**
 
-What did your classmates do well? What did you learn?
+A Javascript object is a primitive data type that is used to structure our data in an organized way for use in our applications. here is a quick example of an object structure
+
+```javascript
+let person = { 
+                firstName: "Gus", 
+                lastName: "Fring", 
+                age: 51, 
+                getFullName: function () { 
+                        return this.firstName + ' ' + this.lastName 
+                }
+            }; 
+```
+
+in this example we are using the Object Literal syntax in defining our object. Objects are made up of key value pairs and can accept a huge amount of data types in the value pairs it accepts. Above we have a person object with multiple keys and values. from strings to numbers and even functions can be added to an object. This allows for better systematic grouping of items that belong together like details about a specific person in this case.
+
+**Arrays**
+
+A Javascript object is a primitive data type that is used to structure our data as a type of list grouping for later use in our applications. 
+
+```javascript
+let people = ['Cersei', 'Tyrion', 'Tywin', 'Jaime']
+
+
+for (const person of people) {
+  console.log(person);
+}
+
+// expected output: "Cersei"
+// expected output: "Tyrion"
+// expected output: "Tywin"
+// expected output: "Jaime"
+```
+
+Arrays are declared much like any variable and designated with the outer \[]'s. They can contain many data types as well as nested arrays. one of the great benefits of arrays are how easy it is to loop through them. 
+
+in addition to the for loop outlined at the beginning of the article we can also use A for.... of loop. It is worth a look into all the different loops and methods that are available as part of javascript to work with arrays and objects. 
+
+This week I also learned some great points about data types in javascript and the pitfalls that can be avoided when paying close attention to them in our code. Noticing problems that can arise from improper use of data types early on in our code can alleviate many issues later down the development line.
