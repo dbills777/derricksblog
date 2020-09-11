@@ -4,9 +4,9 @@ title: "Blog post #4 - Advanced Functions"
 date: 2020-09-02T22:00:53.265Z
 description: ________________________________
 featuredpost: false
-featuredimage: /img/products-grid2.jpg
+featuredimage: /img/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
 tags:
-  - Functions Objects Arrays
+  - Advanced Functions
 ---
 **Post 3 - Advanced Functions**
 
@@ -22,16 +22,13 @@ tags:
   Having a strong understanding of what is and what isn't available to a function or to other parts of an application is important. It can save needing to repeat code and also protect against having bugs or items that are meant for private use of a function being exposed to other parts of our code.
 * What is the Spread Operator?
 
+  ```javascript
+  arr1 = [1,2,3,4]
+  arr2 = [3,4,5,6]
+  //spread operate will combine the two arrays into one 
+  const combined = [...arr1, ...arr2]
+  ```
+
   The spread operator allows for an item that is iterable to be expanded in places where arguments are passed. My favorite use is to use it for array duplication as it is one of the most simple ways to do this. it also is great for combining two arrays into a new single array.
 
-  * When is it useful?
-
-Code examples are a great way to explain these questions.
-
-Please turn in a URL to your post for this assignment.
-
-Lastly, post a link to this post in MS Teams in the channel called **Advanced Functions.** Please comment on at least 2 other posts in Teams.
-
-What did your classmates do well? What did you learn? What could they do better?
-
-[Previous](https://uvu.instructure.com/courses/504621/modules/items/7731172)[Next](https://uvu.instructure.com/courses/504621/modules/items/7731774)
+This week I learned about recursion and how it can be used in data structures. And how it can be used to "loop" through objects.
