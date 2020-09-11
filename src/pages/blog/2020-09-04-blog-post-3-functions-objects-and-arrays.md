@@ -13,6 +13,19 @@ tags:
 * What is recursion?
 
   Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a desired case (Base Case or Exit Case). 
+
+  ```javascript
+  //recusive function
+
+  function sum(num){
+      if (num === 0) {
+          return 0;
+      } else {
+          return num + sum(--num)
+      }
+  } 
+  sum(4);     //10
+  ```
 * What are Scopes and Closures in Javascript?
 
   Scope is a way to manage the availability of variables and their values in functions or from the place they were originally assigned. They are important because they allow us to encapsulate our code, this keeps variable local or private to the items that are reliant upon them. Scoping also guards against accidental reassignment or mutation of variables.
