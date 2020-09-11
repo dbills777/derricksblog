@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Blog post #4 - Advanced Functions"
-date: 2020-09-02T22:00:53.265Z
+date: 2020-09-11T22:07:25.994Z
 description: ________________________________
 featuredpost: false
 featuredimage: /img/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
