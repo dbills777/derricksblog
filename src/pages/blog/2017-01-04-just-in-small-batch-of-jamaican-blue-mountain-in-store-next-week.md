@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Blog post #3 - Functions, Objects, and Arrays"
 date: 2020-09-04T22:43:53.742Z
 description: A Bit About Functions
-featuredpost: true
+featuredpost: false
 featuredimage: /img/functions.png
 tags:
   - Functions Objects Arrays
