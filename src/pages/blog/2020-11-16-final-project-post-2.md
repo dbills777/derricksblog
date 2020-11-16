@@ -27,4 +27,6 @@ tags:
 
         Continue working on the database schemas and some of the logical functionality of the application. 
 
+        My plan is to utilize ejs partial files to hold each piece of logic and display as a component of sorts and be able to utilize them in any page that I send back as a request. This will allow for easy maintenance, and reusability.
+
         Work on the UI and layout of the application to flow better. As far as roadblocks, I didn't really have any, there were a few things that I had to spend time to solve but nothing I would consider an obstruction to my progress.
