@@ -8,8 +8,6 @@ featuredimage: /img/node.png
 tags:
   - final
 ---
-
-
 * What have you done this week?
 
   # User Stories Currently Completed
@@ -24,3 +22,9 @@ tags:
   8. As a user I would like to be able to change quantities on a shopping list Items.
   9. As a user I need to be able to edit shopping list item names.
   10. As a user I need to be able to add a new item to a shopping list.
+
+      * What do you plan on doing next week?
+
+        Continue working on the database schemas and some of the logical functionality of the application. 
+
+        Work on the UI and layout of the application to flow better. As far as roadblocks, I didn't really have any, there were a few things that I had to spend time to solve but nothing I would consider an obstruction to my progress.
