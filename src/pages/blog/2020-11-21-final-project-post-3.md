@@ -33,7 +33,7 @@ This week I focused on building the rating system. I was able to use CSS to styl
 
 The star system works well on a single recipe view, but when I have all the recipes displayed it becomes more difficult to select the lists and render them correctly. 
 
-![rate](/img/screen-shot-2020-11-21-at-2.19.18-pm.png "rate")
+![rate](/img/screen-shot-2020-11-21-at-2.37.39-pm.png "rate")
 
 I will keep working on this aspect for next week and start implementing some filtering into the application. ie categories, rating, updated time, create time etc. 
 
