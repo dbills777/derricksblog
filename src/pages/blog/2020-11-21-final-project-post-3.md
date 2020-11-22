@@ -10,6 +10,8 @@ tags:
 ---
 This week I focused on building the rating system. Hovering over the stars highlights the selected rating and clicking sends a put request to the server and sets the value of the rating. After that the server sends the new ejs page back and it displays the new value for the rating. 
 
+I'm in the middle of removing the blue edit buttons and implementing a double click listener to act as the toggle for editing. The recipe title is an input field that is styled to not look like an input field. This allows for editing right from this page. 
+
 ![stars](/img/screen-shot-2020-11-21-at-8.45.28-pm.png "stars")
 
 # User Stories Currently Completed
@@ -32,7 +34,9 @@ This week I focused on building the rating system. Hovering over the stars highl
 14. **As a user I would like to sort by lowest rated to highest rated.**
 15. **As a user I would like to be able to sort by update time (see the most recently updated recipe first).**
 
-The star system works well. the main display page allows users to sort by rating (up and down) and by recently updated. 
+The star system works well, and was probably the most complicated part I did this week, I thought about handling it with just digits..... but that didn't seem like a "Real" implementation of a rating system to me! I really like how it turned out! 
+
+The main display page allows users to sort by rating (up and down) and by recently updated. 
 
 ![rate](/img/screen-shot-2020-11-21-at-8.42.35-pm.png "rate")
 
