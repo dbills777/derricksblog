@@ -12,8 +12,6 @@ This week I focused on building the rating system. I was able to use CSS to styl
 
 ![stars](/img/screen-shot-2020-11-21-at-2.18.45-pm.png "stars")
 
-
-
 # User Stories Currently Completed
 
 1. As a user I need to be able to add new recipes.
@@ -30,10 +28,12 @@ This week I focused on building the rating system. I was able to use CSS to styl
     # This Weeks Progress
 11. **As a user I would like to Rate recipes.**
 12. **As a user I would like to Change Rating recipes.**
+13. **As a user I would like to sort by highest rated to lowest rated.**
+14. **As a user I would like to sort by lowest rated to highest rated.**
 
 The star system works well on a single recipe view, but when I have all the recipes displayed it becomes more difficult to select the lists and render them correctly. 
 
-![rate](/img/screen-shot-2020-11-21-at-2.37.39-pm.png "rate")
+![rate]( "rate")
 
 I will keep working on this aspect for next week and start implementing some filtering into the application. ie categories, rating, updated time, create time etc. 
 
