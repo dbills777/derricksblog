@@ -4,13 +4,13 @@ title: "Final Project Post #3"
 date: 2020-11-21T21:17:10.487Z
 description: ________________________________
 featuredpost: false
-featuredimage: /img/screen-shot-2020-11-21-at-2.18.45-pm.png
+featuredimage: /img/screen-shot-2020-11-21-at-8.42.35-pm.png
 tags:
   - final
 ---
-This week I focused on building the rating system. I was able to use CSS to style and update the number of highlighted stars for a recipe rating. And send the data attribute back to the DB and update the rating property. 
+This week I focused on building the rating system. Hovering over the stars highlights the selected rating and clicking sends a put request to the server and sets the value of the rating. After that the server sends the new ejs page back and it displays the new value for the rating. 
 
-![stars](/img/screen-shot-2020-11-21-at-2.18.45-pm.png "stars")
+![stars](/img/screen-shot-2020-11-21-at-8.45.28-pm.png "stars")
 
 # User Stories Currently Completed
 
@@ -30,11 +30,10 @@ This week I focused on building the rating system. I was able to use CSS to styl
 12. **As a user I would like to Change Rating recipes.**
 13. **As a user I would like to sort by highest rated to lowest rated.**
 14. **As a user I would like to sort by lowest rated to highest rated.**
+15. **As a user I would like to be able to sort by update time (see the most recently updated recipe first).**
 
-The star system works well on a single recipe view, but when I have all the recipes displayed it becomes more difficult to select the lists and render them correctly. 
+The star system works well. the main display page allows users to sort by rating (up and down) and by recently updated. 
 
-![rate]( "rate")
+![rate](/img/screen-shot-2020-11-21-at-8.42.35-pm.png "rate")
 
-I will keep working on this aspect for next week and start implementing some filtering into the application. ie categories, rating, updated time, create time etc. 
-
-I will also start on the styling of the app for the finished product.
+Next week I will be working on deleting shopping and ingredients from a recipe and starting on the final styling, this is a layout mainly used to get all the functionality working first.
