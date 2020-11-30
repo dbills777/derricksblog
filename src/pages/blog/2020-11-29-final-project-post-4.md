@@ -4,7 +4,7 @@ title: "Final Project Post #4"
 date: 2020-11-29T20:50:32.624Z
 description: ________________________________
 featuredpost: false
-featuredimage: /img/screen-shot-2020-11-21-at-8.42.35-pm.png
+featuredimage: /img/screen-shot-2020-11-29-at-6.02.34-pm.png
 tags:
   - final
 ---
@@ -31,6 +31,6 @@ tags:
 17. As a user I would like to Sort by the categorized recipes.
 18. As a user I would like to be able to Edit recipe Categories.
 
-
+    ![](/img/screen-shot-2020-11-29-at-6.03.00-pm.png)
 
 This week I plan on focusing on refining some of the user stories I currently have completed. some of the actions need to be refined and the styling is long overdue for some changes, so this week I will back off on implementing new features and focus on organization and some of the refinements.
