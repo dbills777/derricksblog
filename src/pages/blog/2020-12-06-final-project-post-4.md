@@ -24,13 +24,18 @@ tags:
 12. As a user I would like to Change Rating recipes.
 13. As a user I would like to Sort by highest rating.
 14. As a user I would like to Sort by lowest rating.
-
-    # This Weeks Progress
 15. As a user I would like to Sort by the most recently updated.
 16. As a user I would like to be able to Categorize recipes
 17. As a user I would like to Sort by the categorized recipes.
 18. As a user I would like to be able to Edit recipe Categories.
 
-    ![](/img/screen-shot-2020-11-29-at-6.03.00-pm.png)
+    # This Weeks Progress
+19. **As a user I would like to be able to Delete an item from a shopping list.**
 
-This week I plan on focusing on refining some of the user stories I currently have completed. some of the actions need to be refined and the styling is long overdue for some changes, so this week I will back off on implementing new features and focus on organization and some of the refinements.
+    **Changed interface to allow for editing of a recipe category and recipe name with a double click on the elements while viewing a recipe detail page.** 
+
+    **implemented the ability to delete a new item from a shopping list. This feature was a little buggy for me to figure out, and took me the majority of my time this week, but I was able to get it to function correctly.**
+
+    ![](/img/screen-shot-2020-12-06-at-5.09.41-pm.png)
+
+This week I want to cleanup my huge app.js file. all my routes are currently in that file and need to be modularized in preparation for deployment to heroku. This week I will get the organization done and implement a few of the final routes and features I would like to have before the end of the semester.
