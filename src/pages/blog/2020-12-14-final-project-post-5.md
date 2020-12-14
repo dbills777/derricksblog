@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Final Project Post #5"
+title: "Final Project Post #6"
 date: 2020-12-14T00:44:44.788Z
 description: ________________________________
 featuredpost: false
@@ -28,14 +28,13 @@ tags:
 16. As a user I would like to be able to Categorize recipes
 17. As a user I would like to Sort by the categorized recipes.
 18. As a user I would like to be able to Edit recipe Categories.
+19. As a user I would like to be able to delete an item from a shopping list.
 
     # This Weeks Progress
-19. **As a user I would like to be able to Delete an item from a shopping list.**
+20. **As a user I would like to be able to Delete an item from an ingredient list.**
 
-    **Changed interface to allow for editing of a recipe category and recipe name with a double click on the elements while viewing a recipe detail page.** 
-
-    **implemented the ability to delete a new item from a shopping list. This feature was a little buggy for me to figure out, and took me the majority of my time this week, but I was able to get it to function correctly.**
+    **The relationship, between my shopping list and my ingredients are not ideal. this makes updating them a little difficult. Even after this class is over I plan on implementing this project differently to have it operate a little better.**
 
     ![](/img/screen-shot-2020-12-06-at-5.09.41-pm.png)
 
-This week I want to cleanup my huge app.js file. all my routes are currently in that file and need to be modularized in preparation for deployment to heroku. This week I will get the organization done and implement a few of the final routes and features I would like to have before the end of the semester.
+The last few days left will be spent getting it deployed and all the live site functionality working. I have ran out of time as far as implementing more of the features that I would like to, but most of the main functionality is there.
