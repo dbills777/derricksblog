@@ -10,7 +10,7 @@ tags:
 ---
 ### About Me
 
-Hi, my name is Derrick Bills and I have been enrolled in the Web Development program at UVU since Fall of 2019, Prior to that I worked as a Pharmacy Technician for nearly 20 years. I had planned to return to school many, many years ago and finally did in 2018. I have a Daughter who is almost 14 years old and a Doberman dog who is is 5. 
+Hi, my name is Derrick Bills and I have been enrolled in the Web Development program at UVU since Fall of 2019, Prior to that I worked as a Pharmacy Technician for nearly 20 years. I had planned to return to school many, many years ago and finally did in 2018. I have a Daughter who is almost 15 years old and a Doberman dog who is is 5. 
 
 Some things we like to do are vacations! We try to go on a few a year (although haven't made it out yet during Covid). One of our favorite spots is to visit family who live in Northern California, Having access to an amazing river and some excellent wineries is amazing. 
 
