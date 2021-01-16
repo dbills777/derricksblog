@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Blog Post 2 Research & Learning
+title: "Blog Post #2 Research & Learning"
 date: 2021-01-16T23:27:10.751Z
 description: "Introduction:"
 featuredpost: false
