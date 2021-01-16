@@ -8,9 +8,9 @@ featuredimage: /img/to-code-or-not-to-code.jpg
 tags:
   - Blog#2
 ---
+* ![code](/img/to-code-or-not-to-code.jpg "code")
 
-
-* How do you personally research on the web?
+  How do you personally research on the web?
 
 I like to include the names of sites that I like to see in the results. Some of these are freecodecamp, MDN, W3 Schools, StackOverflow and other reputable websites. This helps narrow down the results to sources that often lend the best results.
 
