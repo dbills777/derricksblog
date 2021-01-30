@@ -26,41 +26,47 @@ tags:
 
   ![feature](/img/feature-3commts.png "feature")
 
-  What are some advantages and disadvantages of git rebase? (At least 2 of each)
+Now switching back to the MAIN branch and creating 3 more commits on MAIN, leaves the FEATURE1 branch connected to the second MAIN commit as its base. Meaning FEATURE1 contains only the changes from main up to the second commit, its head is now at 5 commits. 
 
-  * When shouldn't you use git rebase? Why?
+Switching back to FEATURE1 and creating 3 more commits on it, exactly like on the main branch leaves, two branches with separate commits that are unaware of each other. 
 
-  Create a new repo and demonstrate your knowledge of the following items with screenshots:
+Rebasing the FEATURE1 branch on the current MAIN branch will change the location of the initial branch to the current HEAD of MAIN allowing us to keep a clean history of all the changes made to MAIN while FEATURE1 was Branched off of it, creating a straight line continuous history for this example project. 
 
-  * A rebase merge
-  * An interactive rebase merge
-  * When you shouldn't rebase with a remote repo.
+What are some advantages and disadvantages of git rebase? (At least 2 of each)
 
-  ### git reset, checkout, and revert
+* When shouldn't you use git rebase? Why?
 
-  Answer the following questions:
+Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
-  * What is git reset?
-  * * What is the difference between hard, mixed and soft?
-  * What is git checkout?
-  * What is git revert?
-  * In what ways are these commands the same and what ways are they different?
-  * When would you use reset, checkout, or revert? Why?
+* A rebase merge
+* An interactive rebase merge
+* When you shouldn't rebase with a remote repo.
 
-  Create a new repo and demonstrate your knowledge of the following items with screenshots:
+### git reset, checkout, and revert
 
-  * a git reset
-  * a get checkout
-  * * a commit
-    * a file
-  * a get revert
+Answer the following questions:
 
-  ### git submodules
+* What is git reset?
+* * What is the difference between hard, mixed and soft?
+* What is git checkout?
+* What is git revert?
+* In what ways are these commands the same and what ways are they different?
+* When would you use reset, checkout, or revert? Why?
 
-  Answer the following questions:
+Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
-  * What are git submodules?
-  * When would you use a submodule?
-  * What are the advantages and disadvantages of git submodules?
+* a git reset
+* a get checkout
+* * a commit
+  * a file
+* a get revert
 
-  Please be complete and clear when answering the above questions.
+### git submodules
+
+Answer the following questions:
+
+* What are git submodules?
+* When would you use a submodule?
+* What are the advantages and disadvantages of git submodules?
+
+Please be complete and clear when answering the above questions.
