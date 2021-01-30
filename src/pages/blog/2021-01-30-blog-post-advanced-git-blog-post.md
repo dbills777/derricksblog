@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Blog Post Advanced Git Blog Post
+title: Advanced Git Blog Post
 date: 2021-01-30T18:10:32.834Z
 description: _____________________________
 featuredpost: false
@@ -22,15 +22,21 @@ tags:
 
   ![main](/img/2commitsmain.png "main")
 
-
-
   ![feature](/img/feature-3commts.png "feature")
 
 Now switching back to the MAIN branch and creating 3 more commits on MAIN, leaves the FEATURE1 branch connected to the second MAIN commit as its base. Meaning FEATURE1 contains only the changes from main up to the second commit, its head is now at 5 commits. 
 
 Switching back to FEATURE1 and creating 3 more commits on it, exactly like on the main branch leaves, two branches with separate commits that are unaware of each other. 
 
-Rebasing the FEATURE1 branch on the current MAIN branch will change the location of the initial branch to the current HEAD of MAIN allowing us to keep a clean history of all the changes made to MAIN while FEATURE1 was Branched off of it, creating a straight line continuous history for this example project. 
+Rebasing the FEATURE1 branch on the current MAIN branch will change the location of the initial branch to the current HEAD of MAIN allowing us to keep a clean history of all the changes made to MAIN while FEATURE1 was Branched off of it, creating a straight line continuous history for this example project.
+
+git merge feature while on the MAIN branch will create a fast forward, of main bringing it up to speed with the FEATURE1 branch. And at this point all the commits made one FEATURE will be included in the main branch history. 
+
+![merge](/img/gitmergefeature.png "merge")
+
+ 
+
+![history](/img/mainhistory1.png "history")
 
 What are some advantages and disadvantages of git rebase? (At least 2 of each)
 
