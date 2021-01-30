@@ -32,8 +32,6 @@ Rebasing the FEATURE1 branch on the current MAIN branch will change the location
 
 git merge feature while on the MAIN branch will create a fast forward, of main bringing it up to speed with the FEATURE1 branch. And at this point all the commits made one FEATURE will be included in the main branch history. 
 
-
-
 * A rebase merge
 
 ![merge](/img/gitmergefeature.png "merge")
@@ -46,14 +44,12 @@ What are some advantages and disadvantages of git rebase? (At least 2 of each)
 
 Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
-
-
 * An interactive rebase merge
 
   ![int](/img/interactivemerge.png "int")
-
-
 * When you shouldn't rebase with a remote repo.
+
+  If you wish to keep the branch commits based on a specific reference commit, you would not want to use rebase. Doing so would change the anchor point of your branch and could cause confusion if the history to that point is heavily relied upon.
 
 ### git reset, checkout, and revert
 
@@ -62,6 +58,8 @@ Answer the following questions:
 * What is git reset?
 * * What is the difference between hard, mixed and soft?
 * What is git checkout?
+
+  Checkout is used to move the HEAD  of your project to a new branch or even a specific commit. 
 * What is git revert?
 * In what ways are these commands the same and what ways are they different?
 * When would you use reset, checkout, or revert? Why?
@@ -72,7 +70,7 @@ Create a new repo and demonstrate your knowledge of the following items with scr
 * a get checkout
 * * a commit
   * a file
-* a get revert
+* a git revert
 
 ### git submodules
 
