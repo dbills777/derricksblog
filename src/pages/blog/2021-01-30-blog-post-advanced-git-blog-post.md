@@ -90,8 +90,6 @@ Answer the following questions:
 
   If you need to switch branches checkout can do that. 
 
-
-
 Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
 * a git reset: 
@@ -99,10 +97,11 @@ Create a new repo and demonstrate your knowledge of the following items with scr
   ```
   git reset --soft HEAD~1
   ```
-
-  ![reset](/img/gitreset.png "reset")
+* ![reset](/img/gitreset.png "reset")
 * a get checkout
 * * a commit
+
+    ![checkout commit](/img/checkout.png "checkoutcommit")
   * a file
 * a git revert
 
