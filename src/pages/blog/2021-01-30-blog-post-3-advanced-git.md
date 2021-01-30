@@ -4,28 +4,33 @@ title: "Blog Post #3 Advanced Git"
 date: 2021-01-30T23:03:49.245Z
 description: "Introduction:"
 featuredpost: false
-featuredimage: /img/to-code-or-not-to-code.jpg
+featuredimage: /img/git-and-github-version-control.png
 tags:
   - Blog#2
 ---
-* ![code](/img/to-code-or-not-to-code.jpg "code")
 
-  How do you personally research on the web?
 
-I like to include the names of sites that I like to see in the results. Some of these are freecodecamp, MDN, W3 Schools, StackOverflow and other reputable websites. This helps narrow down the results to sources that often lend the best results.
+![code](/img/git-and-github-version-control.png "code")
 
-* What tips and tricks do you have to search the web?
 
-After time you become aware of some of the better and some of the not so good sources of information. Making sure that when you are searching for a topic you also include a good reliable source in the search term can cut down on the amount of time spent searching for information to solve a problem.
 
-* What is "Tutorial Hell"?
+* What is Git?
 
-When a person gets stuck in the loop of following allowing with instructors on how to build applications or learn new topics. In the beginning the exposure to tutorials can help to teach a learner to the expansive possibilities of development. However after time this can hold one back from actually learning in a way that leads to true understanding of the topic.
+  Git is a version control system that works on the idea of using snapshot or save points of a repo based on commits designated by the owner/administrator. When a change is decided to be grouped into a commit it can be saved as a snapshot of the projects status at that specific point in time. This idea of snapshotting a static point in time is the basis for git.
 
-* How do you best learn development and JavaScript?
+  * Why is it an important tool in web development?
 
-Now that I have a solid understanding of the core concepts, Learning by doing is best for me. Picking a project I want to build, jumping into the code and using the web to find items when I run into a roadblock. Has worked out great for me.
+    In web development our projects evolve over time and in teams this evolution happens at an even faster rate. using git as a way to manage a project over time is essential in making sure our project is secure and also helps with fixing changes that may have a negative effect on our projects.
+  * What problems does it solve?
 
-* How would you recommend someone new to web development learn the skill and why?
+    It solves the problem of having multiple team members needing to be able to work on the same project at once, and giving them the ability to update all members to one source of truth regarding the repo. 
+* What is GitHub?
 
-Initially I do think working through tutorials is a good idea. The main reason I like this idea is because it can give those with little to no knowledge a quick view of what is possible in the world of web development. After they have a decent amount of exposure I would recommend working through the learning documents on MDN. These docs are structured in a great way to assist with retaining some of the key concepts of Javascript.
+  GitHub is a web hosted platform that utilizes Gits version control system. It is one solution to a web based hosting platform to solve the needs of teams to collaborate with code projects 
+
+  * What problems does it solve? 
+
+    GitHub has evolved into a huge source of integration, and solves many more problems than it was initially intended for including; continuous integration through other companies, collaboration between engineers and teams, backup of local code for easier access from various machines. 
+* What is the difference between Git and GitHub?
+
+  Git is the versioning software and Github is a platform that utilizes the versioning software. it expands on gits functionality by integrating with various systems. GitHub also provides a GUI interface for more visual exploration of commits and project histories.
