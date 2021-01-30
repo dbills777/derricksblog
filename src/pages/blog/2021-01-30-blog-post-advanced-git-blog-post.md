@@ -107,6 +107,8 @@ Create a new repo and demonstrate your knowledge of the following items with scr
     ![](/img/checkoutfile.png)
 * a git revert
 
+  ![reverting](/img/reverting.png "reverting")
+
 ### git submodules
 
 Answer the following questions:
