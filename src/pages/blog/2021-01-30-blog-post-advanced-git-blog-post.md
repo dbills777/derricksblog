@@ -56,13 +56,41 @@ Create a new repo and demonstrate your knowledge of the following items with scr
 Answer the following questions:
 
 * What is git reset?
+
+  GIT RESET is a command used to move the currently selected head to a different commit. It does pose a danger of abandoning commits that may be lost forever and should be used with caution. It resets the head in a way that commits made after the selected commit are left behind for later cleanup by the garbage collector.
 * * What is the difference between hard, mixed and soft?
+
+    HARD- Resets all three areas of the repo, Working Directory, Staging Area & Commit History. 
+
+    MIXED- Resets the Staging Area & Commit History. Used as the default in git.
+
+    SOFT- Resets only the Commit history. Great option if you commit by mistake and need to undo the commit.
 * What is git checkout?
 
-  Checkout is used to move the HEAD  of your project to a new branch or even a specific commit. 
+  CHECKOUT is used to move the HEAD of your project to a new branch or even a specific commit. 
 * What is git revert?
+
+  GIT REVERT  Moves your repo forward while at the same time undoing a previous commits commit. Is used to undo changes made under a specific commit. 
 * In what ways are these commands the same and what ways are they different?
+
+  They all work with specific commits in mind, Moving, resetting and rolling back of a specific commit made to a repo. 
 * When would you use reset, checkout, or revert? Why?
+
+  reset case: Great option if you commit by mistake and need to undo the commit.
+
+  checkout case: Great option if you need to take a peek at a specific repo state, like a feature branch.
+
+  revert case: If you make a change and commit that change and later decide the change is not needed you can revert that commit and ignore the changes that were made in it. This method retains the commits that were made after the reverted commit.
+
+  CHECKOUT-
+
+  If you wanted to see the state at a given time (commit) checkout is useful.
+
+  If you want to create a branch at a specific commit checkout can do that.
+
+  If you need to switch branches checkout can do that. 
+
+
 
 Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
