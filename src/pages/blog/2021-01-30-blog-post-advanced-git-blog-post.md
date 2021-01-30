@@ -103,6 +103,8 @@ Create a new repo and demonstrate your knowledge of the following items with scr
 
     ![checkout commit](/img/checkout.png "checkoutcommit")
   * a file
+
+    ![](/img/checkoutfile.png)
 * a git revert
 
 ### git submodules
