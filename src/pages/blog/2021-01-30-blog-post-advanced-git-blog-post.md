@@ -20,7 +20,14 @@ tags:
 
   Git rebase is the action of changing where a given branch originated from. If you start with 2 initial commits on the MAIN branch, and create a new branch FEATURE1, you currently have 3 bases in your repository. FEATURE1 is "Based" on the second MAIN branch commit. 
 
-  * What are some advantages and disadvantages of git rebase? (At least 2 of each)
+  ![main](/img/2commitsmain.png "main")
+
+
+
+  ![feature](/img/feature-3commts.png "feature")
+
+  What are some advantages and disadvantages of git rebase? (At least 2 of each)
+
   * When shouldn't you use git rebase? Why?
 
   Create a new repo and demonstrate your knowledge of the following items with screenshots:
