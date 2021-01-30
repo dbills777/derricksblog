@@ -32,9 +32,11 @@ Rebasing the FEATURE1 branch on the current MAIN branch will change the location
 
 git merge feature while on the MAIN branch will create a fast forward, of main bringing it up to speed with the FEATURE1 branch. And at this point all the commits made one FEATURE will be included in the main branch history. 
 
-![merge](/img/gitmergefeature.png "merge")
 
- 
+
+* A rebase merge
+
+![merge](/img/gitmergefeature.png "merge")
 
 ![history](/img/mainhistory1.png "history")
 
@@ -44,8 +46,13 @@ What are some advantages and disadvantages of git rebase? (At least 2 of each)
 
 Create a new repo and demonstrate your knowledge of the following items with screenshots:
 
-* A rebase merge
+
+
 * An interactive rebase merge
+
+  ![int](/img/interactivemerge.png "int")
+
+
 * When you shouldn't rebase with a remote repo.
 
 ### git reset, checkout, and revert
