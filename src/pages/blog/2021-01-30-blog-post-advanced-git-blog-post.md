@@ -6,7 +6,7 @@ description: _____________________________
 featuredpost: false
 featuredimage: /img/gitlogo.png
 tags:
-  - Blog#2
+  - Advanced Git
 ---
 * ![code](/img/gitlogo.png "code")
 
@@ -114,7 +114,15 @@ Create a new repo and demonstrate your knowledge of the following items with scr
 Answer the following questions:
 
 * What are git submodules?
-* When would you use a submodule?
+
+  A repo that is a division of an existing repo (A repo inside of a repo).
+
+  This gives a submodule its own commit history and encapsulates it from other parts of the repo. 
+* When would you use a submodule? 
+
+  If you want this piece of code to be consistent and never change a submodule could be a great solution for this.
+
+  Another option is for project dependencies that need to stay at the present state and not be updated. 
 * What are the advantages and disadvantages of git submodules?
 
 Please be complete and clear when answering the above questions.
