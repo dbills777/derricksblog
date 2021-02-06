@@ -1,36 +1,33 @@
 ---
 templateKey: blog-post
-title: "Blog Post #4 Unit Testing"
+title: "Blog Post #4 - Unit Testing"
 date: 2021-02-06T22:27:01.777Z
 description: Unit Testing
 featuredpost: false
 featuredimage: /img/testing.png
 tags:
-  - Blog#2
+  - "Blog #4"
 ---
+![tdd](/img/testing.png "tdd")
 
+*   **Post 4 - Unit Testing**
 
-![code](/img/git-and-github-version-control.png "code")
+  * What is unit testing?
 
+    Unit testing is systematically writing test cases for a small chunk or unit of code, for a small portion of the overall functionality of that piece of code. Only once the small piece of code passes the unit test do you begin on with the next function that the unit needs to accomplish.  
+  * What is test driven development?
 
+    Test driven development is a method of testing and developing in a pattern of; Testing, Writing part of the code solution, testing again, writing a new test and refactoring the code. This loop allows for small chunks of code to be developed in a way that encapsulates them from the overall application that is being developed. In this scenario, code is written only to accomplish what the test says it should do. 
+  * Why would you practice test driven development?
 
-* What is Git?
+    A good use case for this development strategy is a highly computational small function. If you had many pieces of data to calculate manipulate and display in a relational way, TDD is a perfect strategy for breaking the problem down into small easy to manage pieces.
+  * What are the advantages and disadvantages of test driven development?
 
-  Git is a version control system that works on the idea of using snapshot or save points of a repo based on commits designated by the owner/administrator. When a change is decided to be grouped into a commit it can be saved as a snapshot of the projects status at that specific point in time. This idea of snapshotting a static point in time is the basis for git.
+    One advantaged to test driven development is that by the time the product is complete the testing has also been done. This eliminates the need to go back and test the code later. 
 
-  * Why is it an important tool in web development?
+    It is also makes quick work of "simple" mistakes. Writing small chunks to accomplish a given test can help to catch small errors that may otherwise be overlooked. 
 
-    In web development our projects evolve over time and in teams this evolution happens at an even faster rate. using git as a way to manage a project over time is essential in making sure our project is secure and also helps with fixing changes that may have a negative effect on our projects.
-  * What problems does it solve?
+    A few downsides of Testing are that the tools needed to complete the testing need to be maintained. this maintenance requires time and manpower. It is also something that takes a bit of onboarding to really accomplish. The whole team needs to buy in for it to truly be successful. 
+  * What is a unit?
 
-    It solves the problem of having multiple team members needing to be able to work on the same project at once, and giving them the ability to update all members to one source of truth regarding the repo. 
-* What is GitHub?
-
-  GitHub is a web hosted platform that utilizes Gits version control system. It is one solution to a web based hosting platform to solve the needs of teams to collaborate with code projects 
-
-  * What problems does it solve? 
-
-    GitHub has evolved into a huge source of integration, and solves many more problems than it was initially intended for including; continuous integration through other companies, collaboration between engineers and teams, backup of local code for easier access from various machines. 
-* What is the difference between Git and GitHub?
-
-  Git is the versioning software and Github is a platform that utilizes the versioning software. it expands on gits functionality by integrating with various systems. GitHub also provides a GUI interface for more visual exploration of commits and project histories.
+    A unit is a sort of vague term. Possibly it is vague intentionally, but it can be interpreted as a small "unit" of an application that is responsible for one specific task. It can be complex in itself, but keeping it isolated from other operations and dependencies keeps this unit type structure.
