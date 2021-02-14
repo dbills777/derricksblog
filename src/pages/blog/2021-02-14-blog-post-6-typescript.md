@@ -4,30 +4,18 @@ title: "Blog Post #6 TypeScript"
 date: 2021-02-14T01:02:40.531Z
 description: TypeScript
 featuredpost: false
-featuredimage: /img/testing.png
+featuredimage: /img/typescript.png
 tags:
   - "Blog #4"
 ---
-![tdd](/img/testing.png "tdd")
+![](/img/typescript.png)
 
-*   **Post 4 - Unit Testing**
+TypeScript is a superset of JavaScript for both Client and Server side development. As more and more features have been added to JavaScript so has the need for it to become more strictly typed. Meaning that accounting for our data types in the development stage we can prevent the amount of bugs that arise during the development stage. 
 
-  * What is unit testing?
 
-    Unit testing is systematically writing test cases for a small chunk or unit of code, for a small portion of the overall functionality of that piece of code. Only once the small piece of code passes the unit test do you begin on with the next function that the unit needs to accomplish.  
-  * What is test driven development?
 
-    Test driven development is a method of testing and developing in a pattern of; Testing, Writing part of the code solution, testing again, writing a new test and refactoring the code. This loop allows for small chunks of code to be developed in a way that encapsulates them from the overall application that is being developed. In this scenario, code is written only to accomplish what the test says it should do. 
-  * Why would you practice test driven development?
+Typescript is compiled down to javascript in the development stage, in order to check for errors while developing is ongoing there is a transpiler that provides the error checking needed to avoid time consuming bugs. This transpiler included in typescript brings the errors to light before the finial compiling of the Typescript code. The method of defining types on a regular basis also helps as a reminder of what is going in, out, and being worked on in a piece of code. TypeScript acts in a way as a good "commenting" assistant when refactoring older code bases. 
 
-    A good use case for this development strategy is a highly computational small function. If you had many pieces of data to calculate manipulate and display in a relational way, TDD is a perfect strategy for breaking the problem down into small easy to manage pieces.
-  * What are the advantages and disadvantages of test driven development?
 
-    One advantaged to test driven development is that by the time the product is complete the testing has also been done. This eliminates the need to go back and test the code later. 
 
-    It is also makes quick work of "simple" mistakes. Writing small chunks to accomplish a given test can help to catch small errors that may otherwise be overlooked. 
-
-    A few downsides of Testing are that the tools needed to complete the testing need to be maintained. this maintenance requires time and manpower. It is also something that takes a bit of onboarding to really accomplish. The whole team needs to buy in for it to truly be successful. 
-  * What is a unit?
-
-    A unit is a sort of vague term. Possibly it is vague intentionally, but it can be interpreted as a small "unit" of an application that is responsible for one specific task. It can be complex in itself, but keeping it isolated from other operations and dependencies keeps this unit type structure.
+TypeScript helps developers write code that is inherently less prone to errors by defining the types of data as data is moved from item to item. This not only ensures the functions operate properly at the time of writing but it also adds additional protection against possible side effects that otherwise would not have been accounted for if it were not strictly typed. Testing can cover a good amount of the possible cases, but the addition of Typescript can all but eliminate the need for ensuring all types have been tested against the outcome of a particular code block.
