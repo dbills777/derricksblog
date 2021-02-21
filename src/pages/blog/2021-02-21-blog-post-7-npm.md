@@ -8,4 +8,15 @@ featuredimage: /img/download.png
 tags:
   - "Blog #4"
 ---
-![](/img/download.png)
+![npm](/img/download.png "npm")
+
+
+
+**Post 5 - NPM**
+
+* What is NPM?
+* What benefits does NPM provide?
+* What is a NPM module?
+* What are the 3 components of NPM?
+
+  * Why Are they important?
